@@ -1,0 +1,294 @@
+h1, h2, h3, h4, h5, h6, p, button, ul, li {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  background: url(../imagenes/FOTO1.png);
+  height: 576px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header div h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    line-height: 32px; }
+  header .padding {
+    padding-top: 30px; }
+
+header nav img {
+  width: 150px; }
+header nav ul {
+  display: inline-block; }
+  header nav ul li, header nav ul span, header nav ul a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: white; }
+
+.flecha {
+  font-size: 10px;
+  color: black; }
+
+.boton1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600; }
+
+.titulo1 {
+  padding-left: 0;
+  position: relative;
+  top: 175px; }
+
+.boton2 {
+  background-color: rgba(226, 170, 66, 0.8);
+  color: white;
+  width: 200px;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600; }
+
+.titulo2 {
+  color: #e9b848;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 34px; }
+
+section div p, ul {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify; }
+
+.items {
+  font-weight: 700;
+  line-height: 29px;
+  display: inline-block; }
+
+.recursos {
+  background-image: url(../imagenes/FOTO6.jpg);
+  height: 310px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .recursos div h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800; }
+  .recursos div h4 {
+    color: white; }
+  .recursos img {
+    height: 96px;
+    margin: 9px; }
+
+.position {
+  position: relative;
+  top: 34px; }
+
+.carrusel {
+  background-image: url(../imagenes/FOTO3.jpg); }
+  .carrusel div h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    display: block; }
+
+.display {
+  display: inline-block;
+  text-align: center;
+  margin: 38px 10px;
+  opacity: 0.4; }
+  .display h3 {
+    color: white;
+    font-size: 20px; }
+  .display h5 {
+    color: white;
+    font-size: 10px;
+    margin-top: -10px; }
+  .display img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+.alineado {
+  text-align: center; }
+
+.destacado {
+  opacity: 1; }
+  .destacado img {
+    -webkit-filter: grayscale(0);
+    filter: none; }
+
+.fondo {
+  background-color: #333333; }
+
+.freelance {
+  color: white;
+  text-align: center; }
+  .freelance h1 {
+    font-size: 30px;
+    line-height: 26px;
+    max-width: 553px;
+    margin: auto;
+    padding-top: 70px; }
+
+.numeros {
+  padding: 34px;
+  text-align: center; }
+  .numeros span {
+    display: inline-block;
+    text-align: center;
+    margin: 0 7px;
+    padding-top: 4px; }
+  .numeros li {
+    display: inline-block;
+    padding: 0 20px; }
+
+.circulo {
+  border-radius: 50%;
+  border: solid white 1px;
+  height: 30px;
+  width: 30px;
+  margin: auto; }
+
+.crea {
+  background-image: url(../imagenes/FOTO4.jpg);
+  height: 310px; }
+  .crea h1 {
+    text-transform: uppercase;
+    font-weight: 800; }
+  .crea h5 {
+    max-width: 50%;
+    font-size: 16px;
+    line-height: 21px; }
+  .crea .boton2 {
+    width: 300px; }
+  .crea .crea1 {
+    position: relative;
+    top: 39px;
+    left: 58px; }
+
+.workana {
+  background-image: url(../imagenes/FOTO5.jpg);
+  height: 310px;
+  color: white; }
+  .workana h1 {
+    text-transform: uppercase;
+    font-weight: 800; }
+  .workana h5 {
+    max-width: 40%;
+    font-size: 18px;
+    line-height: 24px; }
+  .workana .workana2 {
+    position: relative;
+    top: 39px; }
+
+.newboton {
+  display: none; }
+
+.padding2 {
+  padding-bottom: 10px; }
+
+.ocultar2 {
+  display: none; }
+
+@media screen and (max-width: 767px) {
+  header {
+    background: url(../imagenes/FOTO1.png);
+    background-position-y: 175px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    header div h1 {
+      background-color: transparent; }
+    header .padding {
+      background-color: white;
+      text-align: center;
+      padding-bottom: 30px;
+      box-sizing: border-box; }
+    header .text-right {
+      background-color: #d4ab42;
+      text-align: center; }
+    header .ocultar {
+      display: none; }
+    header .nuevo, header .boton1 {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 17px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600; }
+      header .nuevo a, header .boton1 a {
+        text-decoration: none;
+        color: black; }
+
+  .ocultar {
+    display: none; }
+
+  .boton2 {
+    display: none; }
+
+  .newboton {
+    display: block;
+    background-color: #e2aa42;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75px;
+    text-align: center; }
+    .newboton button {
+      text-align: center;
+      border: none;
+      background: none;
+      box-sizing: border-box;
+      padding: 15px;
+      color: white;
+      font-size: 30px;
+      font-weight: 600; }
+
+  .items {
+    display: none; }
+
+  .recursos {
+    text-align: center; }
+
+  .destacado {
+    text-align: center; }
+
+  .ocultar2 {
+    display: inline-block;
+    background-color: #e2aa42;
+    text-align: center; }
+
+  .item {
+    text-align: center; }
+
+  .crea h5 {
+    max-width: 77%; }
+  .crea .blanco {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px; }
+
+  .workana .negro {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px; }
+  .workana h5 {
+    max-width: 84%; }
+
+  .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: inline-block; } }
+
+/*# sourceMappingURL=style.css.map */
